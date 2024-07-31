@@ -60,7 +60,7 @@ const Ticket = (props) => {
 
   //handler to when a ticket title is clicked
   const handleClick = (event) => {
-    if (event.detail === 2) {
+    if (event.detail === 1) {
       updateAPI(props.id, status);
       setStatus(2);
       statusHandler();

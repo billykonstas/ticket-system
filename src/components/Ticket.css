@@ -67,6 +67,9 @@
   align-items: center;
   text-align: center;
   transition: all 200ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .ticket-title h3 {
